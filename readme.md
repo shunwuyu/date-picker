@@ -15,4 +15,14 @@
   引入demo.css
   normalize.css
 
+- mocha  should.js  --dev
+  编写一个测试用例， 改test
+  默认mocha 不支持es6
+  babel-core babel-loader
+  babel-preset-env
+  .babelrc
+  mocha --require babel-core/register
+  导出
+  toDate()
+
   
