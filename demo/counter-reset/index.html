@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>counter-reset</title>
+  <style>
+    /* 你相不相信， 不用手， 可以摸到你女朋友? 如果用了，你就打我 */
+    /* li:before {
+      content: attr(data-index);
+    } */
+    ul {
+      counter-reset: section;
+    }
+    li:before {
+      content: counter(section);
+      counter-increment:section;
+    }
+
+  </style>
+</head>
+<body>
+  <ul>
+    <li data-index="1"></li>
+    <li data-index="2"></li>
+    <li data-index="3"></li>
+    <li data-index="4"></li>
+    <li data-index="5"></li>
+    <li data-index="6"></li>
+    <li data-index="7"></li>
+    <li data-index="8"></li>
+    <li data-index="9"></li>
+    <li data-index="10"></li>
+  </ul>
+</body>
+</html>
