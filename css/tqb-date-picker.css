@@ -178,7 +178,7 @@
   counter-increment: date;
 }
 .tqb-date-picker .tqb-dp-calendar-item ul li.disabled {
-  color: #808080;
+  color: #d0d0d0;
 }
 .tqb-date-picker .tqb-dp-calendar-item ul li.today {
   position: relative;
