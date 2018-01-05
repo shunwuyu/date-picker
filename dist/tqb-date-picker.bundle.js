@@ -60,17 +60,18 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ 1:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _datePicker = __webpack_require__(1);
+var _datePicker = __webpack_require__(27);
 
 var _datePicker2 = _interopRequireDefault(_datePicker);
 
@@ -89,7 +90,8 @@ $('body').on('click', '.tqb-date-picker-input', function (event) {
 });
 
 /***/ }),
-/* 1 */
+
+/***/ 27:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -131,5 +133,5 @@ var DatePicker = function () {
 exports.default = DatePicker;
 
 /***/ })
-/******/ ]);
-//# sourceMappingURL=tqb-date-picker.bundle.js.map
+
+/******/ });
