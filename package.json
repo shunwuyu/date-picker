@@ -5,6 +5,7 @@
     "test": "mocha --require babel-core/register"
   },
   "devDependencies": {
+    "colors.css": "^3.0.0",
     "handlebars": "^4.0.11",
     "handlebars-loader": "^1.6.0",
     "mocha": "^4.1.0",

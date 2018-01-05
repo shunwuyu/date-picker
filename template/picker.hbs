@@ -1,6 +1,6 @@
 <div class="tqb-date-picker out {{#if static}}static{{/if}} {{#if scattered}}scattered{{else}}continuous{{/if}}">
   <header class="tqb-dp-header">
-    <button type="button" class="tqb-dp-close-button"></button>
+    <button type="button" class="tqb-dp-close-button">&lt;</button>
     <h3>今日保障日期</h3>
     {{#if confirm}}
       <button type="button" class="tqb-dp-confirm-button">确定</button>
@@ -17,6 +17,7 @@
   </header>
   <div class="tqb-dp-container">
     {{#each months}}
+      {{> calendar}}
     {{/each}}
   </div>
 </div>
